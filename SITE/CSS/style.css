@@ -3,4 +3,93 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.icon {
+    width: 10vw;
+}
+
+.align-center {
+    display: flex;
+    justify-content: center;
+}
+
+.tigerimg {
+    width: 90vw;
+}
+.min-width {
+    width: 80vw;
+    text-align: center;
+}
+.content {
+    padding: 5vh 0;
+}
+
+.bottom-line {
+    text-transform: uppercase;
+    margin-bottom: 5vh;
+    padding-bottom: 2vh;
+    border-bottom: solid 3px rgb(207, 102, 16);
+}
+
+.button-box {
+    border: solid 3px rgb(207, 102, 16);
+    margin: 5vh 0;
+    padding: 2vh 2vw;
+    text-transform: uppercase;
+    color: rgb(207, 102, 16);
+}
+
+.button-box span {
+    font-weight: bold;
+    color: rgb(207, 102, 16);
+}
+
+.area-autores {
+    width: 100vw;
+    height: 70vh;
+    background-color: rgb(22, 21, 21);
+    color: white;
+}
+
+.big-box{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.autor-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.autor-box img {
+    width: 5em;
+    border: 1px solid rgb(207, 102, 16);
+}
+
+.autor-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.autor-text h4 {
+    border-bottom: 1px solid rgb(207, 102, 16);
+    padding-bottom: 1vh;
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: black;
+    height: 10vh;
 }

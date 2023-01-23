@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+
+/* cabeçalho */
+
+header{
+    width: 100vh;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+}
+
+.logo_menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

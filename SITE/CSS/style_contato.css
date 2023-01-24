@@ -65,7 +65,47 @@
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px){
+    @font-face {
+        font-family: 'Unbounded';
+        src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
+    }
     
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Unbounded', Arial, Helvetica, sans-serif;
+    }
+
+    footer {
+        color: gray;
+        background-color: black;
+        height: 31vh;
+        text-align: center;
+        padding-top: 2vh;
+        
+    }
+
+    footer p{
+        line-height: 4vh;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: gray;
+    }
+
+    .link_rodape{
+        padding-bottom: 2vh;
+    }
+
+    .copyright{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        border-top: solid 1px gray;
+        letter-spacing: 5px;
+        margin-bottom: 5vh;
+
+    }
 }
 
 @media screen and (min-width: 768px){

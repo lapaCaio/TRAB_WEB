@@ -15,45 +15,36 @@
 <body>
 
     <header>
-        <div class="cabecalho">
-
-            
-            <div id="logo_menu">
-
-                <!-- Icone do logo -->
-                <h1 id="logo">KAPLAN´S</h1>
-
-                <!-- BOTÃO MENU E SEUS LINKS -->
-                <div id="menulateral">
-                    <button onclick="toggleMenu()"> menu </button>
-                    <div id="link_menu">
-                        <nav>
-                            <ul>
-                                <a href="">
-                                    <li>Link 1</li>
-                                </a>
-                                <a href="">
-                                    <li>Link 2</li>
-                                </a>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
-
-            </div>
-
-
-
-            <!-- AREA DE PESQUISA -->
-            <div class="pesquisa">
-                <form action="" class="barra_pesquisa">
-                    <input type="text" placeholder="Buscar" class="area_pesquisa">
-                    <button>
-                        pesquisa
-                    </button>
-                </form>
-            </div>
+        <div id="logo">
+            <!-- Icone do logo -->
+            <h1 id="logo">KAPLAN´S</h1>
         </div>
+
+        <!-- BOTÃO MENU E SEUS LINKS -->
+        <form action="">
+        <button onclick="toggleMenu()"> Menu </button>
+        </form>
+        <nav id="link">
+            <ul>
+                <a href="">
+                    <li>Link 1</li>
+                </a>
+                <a href="">
+                    <li>Link 2</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- AREA DE PESQUISA -->
+        <div class="pesquisa">
+            <form action="" class="barra_pesquisa">
+                <input type="text" placeholder="Buscar" class="area_pesquisa">
+                <button>
+                    pesquisa
+                </button>
+            </form>
+        </div> 
     </header>
 
 </body>

@@ -18,6 +18,9 @@ header {
     justify-content: space-around;
     align-items: center;
 }
+.hero {
+    background-color: #e7e7e6;
+}
 
 .icon {
     max-width: 10vw;
@@ -129,11 +132,14 @@ footer {
 }
 
 @media only screen and (min-width: 425px) and (max-width: 768px) {
-    /* CSS para dispositivos de tamanho médio aqui */
+    
 }
 
 @media only screen and (min-width: 768px) {
     /* CSS para dispositivos grandes aqui */
+    .hero img {
+        max-width: 43em;
+    }
 }
   
   

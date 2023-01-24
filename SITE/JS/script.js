@@ -5,4 +5,5 @@ function toggleMenu() {
     } else {
       sidebar.style.display = "none";
     }
-  }
+}
+

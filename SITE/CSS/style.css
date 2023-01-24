@@ -1,10 +1,16 @@
+@font-face {
+    font-family: 'Unbounded';
+    src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Unbounded', Arial, Helvetica, sans-serif;
 }
+
 
 header {
     height: 10vh;
@@ -14,7 +20,8 @@ header {
 }
 
 .icon {
-    width: 10vw;
+    max-width: 10vw;
+    min-width: 2.5em;
 }
 
 .align-center {
@@ -50,7 +57,13 @@ header {
 
 .button-box span {
     font-weight: bold;
-    color: rgb(207, 102, 16);
+}
+
+.button-box:hover{
+    background-color: rgb(207, 102, 16);
+    transition: 300ms;
+    color: white;
+    
 }
 
 .area-autores {
@@ -69,7 +82,7 @@ header {
 
 .autor-box{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
 }
 
 .autor-box img {
@@ -92,4 +105,24 @@ header {
 footer {
     background-color: black;
     height: 10vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+@media only screen and (max-width: 425px) {
+    /* CSS para dispositivos pequenos aqui */
+}
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+    /* CSS para dispositivos de tamanho médio aqui */
+}
+
+@media only screen and (min-width: 768px) {
+    /* CSS para dispositivos grandes aqui */
+}
+  
+  
+  

@@ -29,14 +29,18 @@
         margin-bottom: 2vh;
     } 
 
-    .imagem_contato{
+    .imagem1_contato{
         width: 100%;
+    }
+
+    .imagem2_contato{
+        display: none;
     }
     
     footer {
         color: gray;
         background-color: black;
-        height: 31vh;
+        height: 35vh;
         text-align: center;
         padding-top: 2vh;
     }
@@ -64,7 +68,7 @@
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px){
+@media screen and (min-width: 426px) and (max-width: 768px){
     @font-face {
         font-family: 'Unbounded';
         src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
@@ -76,13 +80,37 @@
         font-family: 'Unbounded', Arial, Helvetica, sans-serif;
     }
 
+    .titulo{
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 2vh;
+        padding: 2vh 2vh;
+        border-bottom: solid 1px gray;
+    }
+
+    .formulario{
+        position: relative;
+        margin: auto;
+    }
+    
+
+    .imagem1_contato{
+        /* display: none; */
+        width: 100%;
+    }
+
+    .imagem2_contato{
+        /* width: 50vh;
+        position: relative; */
+        display: none;
+    } 
+
     footer {
         color: gray;
         background-color: black;
         height: 31vh;
         text-align: center;
-        padding-top: 2vh;
-        
+        padding-top: 2vh;    
     }
 
     footer p{
@@ -104,10 +132,64 @@
         border-top: solid 1px gray;
         letter-spacing: 5px;
         margin-bottom: 5vh;
-
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 769px){
 
+    @font-face {
+        font-family: 'Unbounded';
+        src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Unbounded', Arial, Helvetica, sans-serif;
+    }
+
+    .titulo{
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 2vh;
+        padding: 2vh 2vh;
+        border-bottom: solid 1px gray;
+    }
+
+    .imagem1_contato{
+        width: 100%;
+    }
+
+    .imagem2_contato{
+        display: none;
+    }
+
+    footer {
+        color: gray;
+        background-color: black;
+        height: 31vh;
+        text-align: center;
+        padding-top: 2vh;    
+    }
+
+    footer p{
+        line-height: 4vh;
+    }
+
+    footer a{
+        text-decoration: none;
+        color: gray;
+    }
+
+    .link_rodape{
+        padding-bottom: 2vh;
+    }
+
+    .copyright{
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        border-top: solid 1px gray;
+        letter-spacing: 5px;
+        margin-bottom: 5vh;
+    }
 }

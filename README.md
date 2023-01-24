@@ -8,6 +8,7 @@ PALETA DE CORES:
     cinza - #E5E5E5
     branco - #FFFFFF
 
+
 REQUISITOS PARA O TRABALHO DE WEBSITE
 
 (3a AVALIAÇÃO – T2)
@@ -87,3 +88,4 @@ e navegabilidade do site (lembrem-se do que nós discutimos em sala de aula e ut
 material disponibilizado como referência e apoio).
 
 - Testem o site!!!!!
+

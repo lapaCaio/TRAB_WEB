@@ -1,5 +1,5 @@
 function toggleMenu() {
-    var sidebar = document.getElementById("link_menu");
+    var sidebar = document.getElementById("link");
     if (sidebar.style.display === "none") {
       sidebar.style.display = "block";
     } else {

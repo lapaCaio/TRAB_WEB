@@ -14,27 +14,21 @@
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 2vh;
-        padding: 2vh 2vh;
+        padding: 2vh 2vw;
         border-bottom: solid 1px gray;
-    }
-
-    .forms{
-        text-align: left;
-        margin-left: 10vh;
-        flex-direction: column;
     }
 
     .formulario{
         margin: auto;
-        margin-bottom: 2vh;
-    } 
+        margin-bottom: 2vh; 
+    }
+
+    .form_text p{
+        padding: 4vw;
+    }
 
     .imagem1_contato{
         width: 100%;
-    }
-
-    .imagem2_contato{
-        display: none;
     }
     
     footer {
@@ -84,26 +78,30 @@
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 2vh;
-        padding: 2vh 2vh;
+        padding: 2vh 2vw;
         border-bottom: solid 1px gray;
     }
 
-    .formulario{
-        position: relative;
-        margin: auto;
+    .form_text{
+        display: flex;
     }
-    
+
+    .formulario{
+        display: flex;
+        margin: 4vh;
+    }
+
+    .form_text p{
+        margin: 4vh;
+    }
 
     .imagem1_contato{
-        /* display: none; */
         width: 100%;
     }
 
-    .imagem2_contato{
-        /* width: 50vh;
-        position: relative; */
-        display: none;
-    } 
+    textarea{
+        width: 50vw;
+    }
 
     footer {
         color: gray;
@@ -152,16 +150,26 @@
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 2vh;
-        padding: 2vh 2vh;
+        padding: 2vh 2vw;
         border-bottom: solid 1px gray;
     }
 
-    .imagem1_contato{
-        width: 100%;
+    .form_text{
+        display: flex;
     }
 
-    .imagem2_contato{
-        display: none;
+    .formulario{
+        display: flex;
+        margin: 4vh;
+    }
+
+    .form_text p{
+        margin: 4vh;
+    }
+
+    textarea{
+        width: 45vw;
+        height: 30vh;
     }
 
     footer {
@@ -183,6 +191,10 @@
 
     .link_rodape{
         padding-bottom: 2vh;
+    }
+
+    .imagem1_contato{
+        width: 100%;
     }
 
     .copyright{

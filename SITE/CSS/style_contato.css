@@ -1,16 +1,16 @@
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
     @font-face {
         font-family: 'Unbounded';
         src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
     }
-    
-    *{
+
+    * {
         margin: 0;
         padding: 0;
         font-family: 'Unbounded', Arial, Helvetica, sans-serif;
     }
 
-    .titulo{
+    .titulo {
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 2vh;
@@ -18,19 +18,39 @@
         border-bottom: solid 1px gray;
     }
 
-    .formulario{
+    .formulario {
         margin: auto;
-        margin-bottom: 2vh; 
+        margin-bottom: 2vh;
     }
 
-    .form_text p{
+    .form_text p {
         padding: 4vw;
     }
 
-    .imagem1_contato{
+    button {
+        border: solid 1px rgb(207, 102, 16);
+        padding: 1vh 1vw;
+        text-transform: uppercase;
+        color: rgb(207, 102, 16);
+    }
+
+    button:hover {
+        background-color: rgb(207, 102, 16);
+        color: white;
+    }
+
+    input {
+        border: solid 1px rgb(207, 102, 16);
+    }
+
+    textarea {
+        border: solid 1px rgb(207, 102, 16);
+    }
+
+    .imagem1_contato {
         width: 100%;
     }
-    
+
     footer {
         color: gray;
         background-color: black;
@@ -39,20 +59,20 @@
         padding-top: 2vh;
     }
 
-    footer p{
+    footer p {
         line-height: 4vh;
     }
 
-    footer a{
+    footer a {
         text-decoration: none;
         color: gray;
     }
 
-    .link_rodape{
+    .link_rodape {
         padding-bottom: 2vh;
     }
 
-    .copyright{
+    .copyright {
         padding-top: 2vh;
         padding-bottom: 2vh;
         border-top: solid 1px gray;
@@ -62,19 +82,19 @@
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px){
+@media screen and (min-width: 426px) and (max-width: 768px) {
     @font-face {
         font-family: 'Unbounded';
         src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
     }
-    
-    *{
+
+    * {
         margin: 0;
         padding: 0;
         font-family: 'Unbounded', Arial, Helvetica, sans-serif;
     }
 
-    .titulo{
+    .titulo {
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 2vh;
@@ -82,25 +102,42 @@
         border-bottom: solid 1px gray;
     }
 
-    .form_text{
+    .form_text {
         display: flex;
     }
 
-    .formulario{
+    .formulario {
         display: flex;
         margin: 4vh;
     }
 
-    .form_text p{
+    .form_text p {
         margin: 4vh;
     }
 
-    .imagem1_contato{
+    button {
+        border: solid 1px rgb(207, 102, 16);
+        padding: 1vh 1vw;
+        text-transform: uppercase;
+        color: rgb(207, 102, 16);
+    }
+
+    button:hover {
+        background-color: rgb(207, 102, 16);
+        color: white;
+    }
+
+    input {
+        border: solid 1px rgb(207, 102, 16);
+    }
+
+    .imagem1_contato {
         width: 100%;
     }
 
-    textarea{
+    textarea {
         width: 50vw;
+        border: solid 1px rgb(207, 102, 16);
     }
 
     footer {
@@ -108,23 +145,23 @@
         background-color: black;
         height: 31vh;
         text-align: center;
-        padding-top: 2vh;    
+        padding-top: 2vh;
     }
 
-    footer p{
+    footer p {
         line-height: 4vh;
     }
 
-    footer a{
+    footer a {
         text-decoration: none;
         color: gray;
     }
 
-    .link_rodape{
+    .link_rodape {
         padding-bottom: 2vh;
     }
 
-    .copyright{
+    .copyright {
         padding-top: 2vh;
         padding-bottom: 2vh;
         border-top: solid 1px gray;
@@ -133,20 +170,20 @@
     }
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 769px) {
 
     @font-face {
         font-family: 'Unbounded';
         src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
     }
-    
-    *{
+
+    * {
         margin: 0;
         padding: 0;
         font-family: 'Unbounded', Arial, Helvetica, sans-serif;
     }
 
-    .titulo{
+    .titulo {
         text-align: center;
         text-transform: uppercase;
         margin-bottom: 2vh;
@@ -154,22 +191,39 @@
         border-bottom: solid 1px gray;
     }
 
-    .form_text{
+    .form_text {
         display: flex;
     }
 
-    .formulario{
+    .formulario {
         display: flex;
         margin: 4vh;
     }
 
-    .form_text p{
+    .form_text p {
         margin: 4vh;
     }
 
-    textarea{
+    button {
+        border: solid 1px rgb(207, 102, 16);
+        padding: 1vh 1vw;
+        text-transform: uppercase;
+        color: rgb(207, 102, 16);
+    }
+
+    button:hover {
+        background-color: rgb(207, 102, 16);
+        color: white;
+    }
+
+    textarea {
         width: 45vw;
         height: 30vh;
+        border: solid 1px rgb(207, 102, 16);
+    }
+
+    input {
+        border: solid 1px rgb(207, 102, 16);
     }
 
     footer {
@@ -177,27 +231,27 @@
         background-color: black;
         height: 31vh;
         text-align: center;
-        padding-top: 2vh;    
+        padding-top: 2vh;
     }
 
-    footer p{
+    footer p {
         line-height: 4vh;
     }
 
-    footer a{
+    footer a {
         text-decoration: none;
         color: gray;
     }
 
-    .link_rodape{
+    .link_rodape {
         padding-bottom: 2vh;
     }
 
-    .imagem1_contato{
+    .imagem1_contato {
         width: 100%;
     }
 
-    .copyright{
+    .copyright {
         padding-top: 2vh;
         padding-bottom: 2vh;
         border-top: solid 1px gray;

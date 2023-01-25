@@ -32,6 +32,7 @@
         padding: 1vh 1vw;
         text-transform: uppercase;
         color: rgb(207, 102, 16);
+        border-radius: 5px;
     }
 
     button:hover {
@@ -41,10 +42,14 @@
 
     input {
         border: solid 1px rgb(207, 102, 16);
+        border-radius: 5px;
+        padding: 10px 10px;
     }
 
     textarea {
         border: solid 1px rgb(207, 102, 16);
+        padding: 10px 10px;
+        border-radius: 5px;
     }
 
     .imagem1_contato {
@@ -120,6 +125,7 @@
         padding: 1vh 1vw;
         text-transform: uppercase;
         color: rgb(207, 102, 16);
+        border-radius: 5px;
     }
 
     button:hover {
@@ -129,6 +135,8 @@
 
     input {
         border: solid 1px rgb(207, 102, 16);
+        border-radius: 5px;
+        padding: 10px 10px;
     }
 
     .imagem1_contato {
@@ -138,6 +146,8 @@
     textarea {
         width: 50vw;
         border: solid 1px rgb(207, 102, 16);
+        padding: 10px 10px;
+        border-radius: 5px;
     }
 
     footer {
@@ -209,6 +219,7 @@
         padding: 1vh 1vw;
         text-transform: uppercase;
         color: rgb(207, 102, 16);
+        border-radius: 5px;
     }
 
     button:hover {
@@ -220,10 +231,14 @@
         width: 45vw;
         height: 30vh;
         border: solid 1px rgb(207, 102, 16);
+        padding: 10px 10px;
+        border-radius: 5px;
     }
 
     input {
         border: solid 1px rgb(207, 102, 16);
+        border-radius: 5px;
+        padding: 10px 10px;
     }
 
     footer {

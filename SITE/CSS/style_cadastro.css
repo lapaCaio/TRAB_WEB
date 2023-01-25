@@ -1,0 +1,137 @@
+@media screen and (max-width: 425px){
+    @font-face {
+        font-family: 'Unbounded';
+        src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Unbounded', Arial, Helvetica, sans-serif;
+    }
+
+
+
+
+    /* FOOTER */
+    footer {
+        color: gray;
+        background-color: black;
+        height: 35vh;
+        text-align: center;
+        padding-top: 2vh;
+    }
+
+    footer p {
+        line-height: 4vh;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    .link_rodape {
+        padding-bottom: 2vh;
+    }
+
+    .copyright {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        border-top: solid 1px gray;
+        letter-spacing: 5px;
+        margin-bottom: 5vh;
+
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    @font-face {
+        font-family: 'Unbounded';
+        src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Unbounded', Arial, Helvetica, sans-serif;
+    }
+
+    /* FOOTER */
+
+    footer {
+        color: gray;
+        background-color: black;
+        height: 31vh;
+        text-align: center;
+        padding-top: 2vh;
+    }
+
+    footer p {
+        line-height: 4vh;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    .link_rodape {
+        padding-bottom: 2vh;
+    }
+
+    .copyright {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        border-top: solid 1px gray;
+        letter-spacing: 5px;
+        margin-bottom: 5vh;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    @font-face {
+        font-family: 'Unbounded';
+        src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Unbounded', Arial, Helvetica, sans-serif;
+    }
+
+    /* FOOTER */
+    footer {
+        color: gray;
+        background-color: black;
+        height: 31vh;
+        text-align: center;
+        padding-top: 2vh;
+    }
+
+    footer p {
+        line-height: 4vh;
+    }
+
+    footer a {
+        text-decoration: none;
+        color: gray;
+    }
+
+    .link_rodape {
+        padding-bottom: 2vh;
+    }
+
+    .imagem1_contato {
+        width: 100%;
+    }
+
+    .copyright {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+        border-top: solid 1px gray;
+        letter-spacing: 5px;
+        margin-bottom: 5vh;
+    }
+}

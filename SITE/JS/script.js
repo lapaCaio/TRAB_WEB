@@ -43,3 +43,8 @@ function showMenu(){
     }
   });
 }
+
+function scrollElement(){
+  var element = document.getElementById("about");
+  element.scrollIntoView();
+ }

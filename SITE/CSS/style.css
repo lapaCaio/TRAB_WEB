@@ -16,6 +16,15 @@ body{
     touch-action: auto;
 }
 
+a:link  {
+    text-decoration: none;
+
+}
+
+a:visited {
+    text-decoration: none;
+
+}
 header {
     height: 10vh;
     display: flex;
@@ -72,7 +81,7 @@ header {
     text-decoration: none;
     font-weight: 400;
     letter-spacing: normal;
-    transition: 300ms letter-spacing;
+    transition:300ms letter-spacing;
 }
 
 .menu-option:hover {
@@ -144,7 +153,7 @@ header {
 }
 
 .big-box{
-    height: 50vh;
+    height: 70vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -181,6 +190,13 @@ header {
     border-bottom: 1px solid rgb(207, 102, 16);
     padding-bottom: 1vh;
     text-transform: uppercase;
+}
+
+#button-faleconosco{
+
+    color: white;
+    width: 40em;
+
 }
 
 footer {

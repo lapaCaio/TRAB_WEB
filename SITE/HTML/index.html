@@ -6,21 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index</title>
     <link rel="stylesheet" href="../CSS/style.css">
+    <script language="Javascript" src="../JS/script.js"></script>
 </head>
-<body>
-    <header>
+<body id="body">
+    <header id="header" class="transition">
         <div>
-            <h1 >KAPLAN´S</h1>
+            <h1>KAPLAN´S</h1>
         </div>
         <div>
-            <img class="icon" src="../SRC/person_icon.png" alt="icone pessoa">
+            <img id="menu-icon" class="icon" src="../SRC/menu_icon.png" alt="icone menu" onclick="showMenu()">
+            
+            <div id="menu-dropdown" class="hidden">
+                <div class="line">
+                    <a href="www.google.com" class="menu-option">Opção 01</a>
+                </div>
+                <div class="line">
+                    <a href="#" class="menu-option" class="line">Opção 02</a>
+                </div>
+                <div class="line">
+                    <a href="#" class="menu-option" class="line">Opção 03</a>
+                </div>
+                <div class="line">
+                    <a href="#" class="menu-option" class="line">Opção 04</a>
+                </div>    
+            </div>
         </div>
     </header>
-    <main>
-        <div class="align-center content">
-            <a href="paginainicial.html"><img class="tigerimg" src="../SRC/tigercanvas.png" alt="logo tiger"></a>
+    <main id="main">
+        <div class="align-center content hero">
+            <a href="paginainicial.html"><img class="tigerimg" src="../SRC/tigercanvas.png" usemap="#image-map" alt="logo tiger"></a>
         </div>
-        <div class="align-center content">
+        <div class="align-center content branco">
             <div class="min-width">
                 <div class="bottom-line">
                     <h2 >Sobre a Kaplan's</h2>
@@ -30,7 +46,6 @@
                 <div class="button-box">
                     <p>Experimente a diferença de um tênis <span>KAPLAN´S</span> hoje!</p>
                 </div>
-                
             </div>
         </div>
         <div class="align-center area-autores content pfont">

@@ -11,13 +11,75 @@
     font-family: 'Unbounded', Arial, Helvetica, sans-serif;
 }
 
+body{
+    background-color: #e7e7e6;
+    touch-action: auto;
+}
 
 header {
     height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: transparent;
+    
+    position: sticky;
+    top: 0;
 }
+
+.transition {
+    transition: 1000ms background-color;
+}
+
+.branco{
+    background-color: white;
+}
+
+.line {
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em;
+}
+
+.line:hover {
+    width: max-content;
+}
+
+#menu-dropdown {
+    position: absolute;
+    background-color: white;
+    width: 20vw;
+    height: 40vh;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fundo-dropdown {
+    border: black 1px solid;
+    height: 100vh;
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.menu-option{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: normal;
+    transition: 300ms letter-spacing;
+}
+
+.menu-option:hover {
+    letter-spacing: 0.2em;
+    transition: 300ms letter-spacing;
+}
+
 .hero {
     background-color: #e7e7e6;
 }
@@ -56,6 +118,9 @@ header {
     padding: 2vh 2vw;
     text-transform: uppercase;
     color: rgb(207, 102, 16);
+
+    letter-spacing: normal;
+    transition: 300ms letter-spacing;
 }
 
 .button-box span {
@@ -64,9 +129,10 @@ header {
 
 .button-box:hover{
     background-color: rgb(207, 102, 16);
-    transition: 300ms;
     color: white;
-    
+    letter-spacing: 2px;
+    transition: 300ms letter-spacing;
+    cursor:pointer;
 }
 
 .area-autores {
@@ -127,11 +193,22 @@ footer {
     flex-direction: column;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 768px) {
     /* CSS para dispositivos pequenos aqui */
+    #menu-dropdown {
+        z-index: 1;
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100vw;
+        height: 900%;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        transition: 1s background-color;
+    }
 }
 
-@media only screen and (min-width: 425px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
     
 }
 
@@ -140,7 +217,7 @@ footer {
     .hero img {
         max-width: 43em;
     }
-}
+}  
   
   
   

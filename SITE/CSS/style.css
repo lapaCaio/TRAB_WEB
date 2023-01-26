@@ -18,12 +18,12 @@ body{
 
 a:link  {
     text-decoration: none;
-
+    color:black;
 }
 
 a:visited {
     text-decoration: none;
-
+    color: black;
 }
 header {
     height: 10vh;

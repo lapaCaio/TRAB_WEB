@@ -22,7 +22,6 @@ function showMenu(){
     menu.style.display = "none";
 
     body.style.touchAction = "auto";
-    header.style.backgroundColor = "#e7e7e6";
     
   }
 
@@ -51,3 +50,14 @@ function changeColor(){
     }
   });
 }
+
+var carouselImages = document.querySelectorAll(".carousel-image");
+var currentImageIndex = 0;
+
+function showNextImage() {
+  carouselImages[currentImageIndex].classList.remove("active");
+  currentImageIndex = (currentImageIndex + 1) % carouselImages.length;
+  carouselImages[currentImageIndex].classList.add("active");
+}
+
+setInterval(showNextImage, 3000);

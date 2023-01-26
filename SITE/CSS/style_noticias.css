@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: #e7e7e6;
+    background-color: rgba(249,249,250,255);
     touch-action: auto;
 }
 
@@ -87,10 +87,81 @@ header {
 .menu-option:hover {
     letter-spacing: 0.2em;
     transition: 300ms letter-spacing;
+    
 }
 
 .hero {
-    background-color: #e7e7e6;
+    background-color: rgba(249,249,250,255);
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    height: 10vh;
+
+    background-color: rgb(22, 21, 21);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid white;
+}
+
+.news {
+    height: 320vh;
+    background-color: rgb(22, 21, 21);
+    padding: 2vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.news-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh 2vw 0 2vw;
+    border-radius: 3px;
+    max-width: 22em;
+    max-height: 24em;
+    color: white;
+    font-size:small;
+}
+
+.news-box  img{
+    max-width: 50%;
+    height: auto;
+    padding-bottom: 3vh;
+}
+
+.news-box p{
+    padding: 1vh;
+    font-size: 1em;
+}
+
+.news-box a {
+    justify-content: right;
+}
+
+.news-content{
+    border: 1px solid white;
+    padding: 0.5em;
+    margin: 2vh 2vw;
+}
+
+.btn-div{
+    display: flex;
+    justify-content: right;
+    max-width: 22em;
+    padding: 2vh 2vw;
+}
+
+.btn-div a, h3 {
+    color: rgb(207, 102, 16);
 }
 
 .icon {
@@ -231,12 +302,27 @@ footer {
     
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px){
     /* CSS para dispositivos grandes aqui */
     .hero img {
         max-width: 43em;
     }
-}  
+
+    .news {
+        height: 200vh;
+        background-color: rgb(22, 21, 21);
+        padding: 2vh;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: ) {
+    
+}
   
   
   

@@ -1,4 +1,4 @@
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 425px){
     @font-face {
         font-family: 'Unbounded';
         src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
@@ -10,21 +10,50 @@
         font-family: 'Unbounded', Arial, Helvetica, sans-serif;
     }
 
-    .titulo {
-        text-align: center;
-        text-transform: uppercase;
-        margin-bottom: 2vh;
-        padding: 2vh 2vw;
-        border-bottom: solid 1px gray;
+    main{
+        padding: 6vw;
     }
 
-    .formulario {
-        margin: auto;
+    p{
         margin-bottom: 2vh;
     }
 
-    .form_text p {
-        padding: 4vw;
+    input{
+        margin-bottom: 2vh;
+        border-radius: 5px;
+        padding: 2vh;
+        border: solid 1px rgb(207, 102, 16);
+    }
+
+    input:hover {
+        margin-bottom: 2vh;
+        border-radius: 5px;
+        padding: 2vh;
+        border: solid 3px rgb(207, 102, 16);
+    }
+
+    select{
+        margin-bottom: 2vh;
+        border-radius: 5px;
+        padding: 2vh;
+        border: solid 1px rgb(207, 102, 16);
+    }
+
+    select:hover{
+        margin-bottom: 2vh;
+        border-radius: 5px;
+        padding: 2vh;
+        border: solid 3px rgb(207, 102, 16);
+    }
+
+    textarea {
+        border: solid 1px rgb(207, 102, 16);
+        border-radius: 5px;
+    }
+
+    textarea:hover{
+        border: solid 3px rgb(207, 102, 16);
+        border-radius: 5px;
     }
 
     button {
@@ -40,40 +69,12 @@
         color: white;
     }
 
-    input {
-        border: solid 1px rgb(207, 102, 16);
-        border-radius: 5px;
-        padding: 2vh;
-        margin-bottom: 2vh;
-    }
 
-    input:hover {
-        border: solid 3px rgb(207, 102, 16);
-        border-radius: 5px;
-        padding: 2vh;
-        margin-bottom: 2vh;
-    }
-
-    textarea {
-        border: solid 1px rgb(207, 102, 16);
-        padding: 2vh;
-        border-radius: 5px;
-    }
-
-    textarea:hover {
-        border: solid 3px rgb(207, 102, 16);
-        padding: 2vh;
-        border-radius: 5px;
-    }
-
-    .imagem1_contato {
-        width: 100%;
-    }
-
+    /* FOOTER */
     footer {
         color: gray;
         background-color: black;
-        height: 35vh;
+        height: 45vh;
         text-align: center;
         padding-top: 2vh;
     }
@@ -113,56 +114,11 @@
         font-family: 'Unbounded', Arial, Helvetica, sans-serif;
     }
 
-    .titulo {
-        text-align: center;
-        text-transform: uppercase;
-        margin-bottom: 2vh;
-        padding: 2vh 2vw;
-        border-bottom: solid 1px gray;
+    main{
+        padding: 4vw;
     }
 
-    .form_text {
-        display: flex;
-    }
-
-    .formulario {
-        display: flex;
-        margin: 4vh;
-    }
-
-    .form_text p {
-        margin: 4vh;
-    }
-
-    button {
-        border: solid 1px rgb(207, 102, 16);
-        padding: 1vh 1vw;
-        text-transform: uppercase;
-        color: rgb(207, 102, 16);
-        border-radius: 5px;
-    }
-
-    button:hover {
-        background-color: rgb(207, 102, 16);
-        color: white;
-    }
-
-    input {
-        border: solid 1px rgb(207, 102, 16);
-        border-radius: 5px;
-        padding: 10px 10px;
-    }
-
-    .imagem1_contato {
-        width: 100%;
-    }
-
-    textarea {
-        width: 50vw;
-        border: solid 1px rgb(207, 102, 16);
-        padding: 10px 10px;
-        border-radius: 5px;
-    }
+    /* FOOTER */
 
     footer {
         color: gray;
@@ -195,7 +151,6 @@
 }
 
 @media screen and (min-width: 769px) {
-
     @font-face {
         font-family: 'Unbounded';
         src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
@@ -207,54 +162,7 @@
         font-family: 'Unbounded', Arial, Helvetica, sans-serif;
     }
 
-    .titulo {
-        text-align: center;
-        text-transform: uppercase;
-        margin-bottom: 2vh;
-        padding: 2vh 2vw;
-        border-bottom: solid 1px gray;
-    }
-
-    .form_text {
-        display: flex;
-    }
-
-    .formulario {
-        display: flex;
-        margin: 4vh;
-    }
-
-    .form_text p {
-        margin: 4vh;
-    }
-
-    button {
-        border: solid 1px rgb(207, 102, 16);
-        padding: 1vh 1vw;
-        text-transform: uppercase;
-        color: rgb(207, 102, 16);
-        border-radius: 5px;
-    }
-
-    button:hover {
-        background-color: rgb(207, 102, 16);
-        color: white;
-    }
-
-    textarea {
-        width: 45vw;
-        height: 30vh;
-        border: solid 1px rgb(207, 102, 16);
-        padding: 10px 10px;
-        border-radius: 5px;
-    }
-
-    input {
-        border: solid 1px rgb(207, 102, 16);
-        border-radius: 5px;
-        padding: 10px 10px;
-    }
-
+    /* FOOTER */
     footer {
         color: gray;
         background-color: black;

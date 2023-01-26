@@ -43,12 +43,26 @@
     input {
         border: solid 1px rgb(207, 102, 16);
         border-radius: 5px;
-        padding: 10px 10px;
+        padding: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    input:hover {
+        border: solid 3px rgb(207, 102, 16);
+        border-radius: 5px;
+        padding: 2vh;
+        margin-bottom: 2vh;
     }
 
     textarea {
         border: solid 1px rgb(207, 102, 16);
-        padding: 10px 10px;
+        padding: 2vh;
+        border-radius: 5px;
+    }
+
+    textarea:hover {
+        border: solid 3px rgb(207, 102, 16);
+        padding: 2vh;
         border-radius: 5px;
     }
 

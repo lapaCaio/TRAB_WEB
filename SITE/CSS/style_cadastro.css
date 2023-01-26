@@ -1,4 +1,4 @@
-@media screen and (max-width: 425px){
+@media screen and (max-width: 425px) {
     @font-face {
         font-family: 'Unbounded';
         src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
@@ -10,15 +10,15 @@
         font-family: 'Unbounded', Arial, Helvetica, sans-serif;
     }
 
-    main{
+    main {
         padding: 6vw;
     }
 
-    p{
+    p {
         margin-bottom: 2vh;
     }
 
-    input{
+    input {
         margin-bottom: 2vh;
         border-radius: 5px;
         padding: 2vh;
@@ -32,14 +32,14 @@
         border: solid 3px rgb(207, 102, 16);
     }
 
-    select{
+    select {
         margin-bottom: 2vh;
         border-radius: 5px;
         padding: 2vh;
         border: solid 1px rgb(207, 102, 16);
     }
 
-    select:hover{
+    select:hover {
         margin-bottom: 2vh;
         border-radius: 5px;
         padding: 2vh;
@@ -51,7 +51,7 @@
         border-radius: 5px;
     }
 
-    textarea:hover{
+    textarea:hover {
         border: solid 3px rgb(207, 102, 16);
         border-radius: 5px;
     }
@@ -114,8 +114,96 @@
         font-family: 'Unbounded', Arial, Helvetica, sans-serif;
     }
 
-    main{
+    main {
         padding: 4vw;
+    }
+    
+    #text{
+        padding: 2vw;
+    }
+
+    input {
+        /* margin-bottom: 2vh; */
+        border-radius: 5px;
+        padding: 2vh;
+        border: solid 1px rgb(207, 102, 16);
+    }
+
+    input:hover {
+        margin-bottom: 2vh;
+        border-radius: 5px;
+        padding: 2vh;
+        border: solid 3px rgb(207, 102, 16);
+    }
+
+    select {
+        margin-bottom: 2vh;
+        border-radius: 5px;
+        padding: 2vh;
+        border: solid 1px rgb(207, 102, 16);
+    }
+
+    select:hover {
+        margin-bottom: 2vh;
+        border-radius: 5px;
+        padding: 2vh;
+        border: solid 3px rgb(207, 102, 16);
+    }
+
+    textarea {
+        border: solid 1px rgb(207, 102, 16);
+        border-radius: 5px;
+    }
+
+    textarea:hover {
+        border: solid 3px rgb(207, 102, 16);
+        border-radius: 5px;
+    }
+
+    button {
+        border: solid 1px rgb(207, 102, 16);
+        padding: 1vh 1vw;
+        text-transform: uppercase;
+        color: rgb(207, 102, 16);
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: rgb(207, 102, 16);
+        color: white;
+    }
+
+    form {
+        display: flex;
+        flex-direction: row;
+        justify-content: left;
+        flex-wrap: wrap;
+        align-items: left;
+    }
+
+    form div {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+        font-size: 0.8em;
+    }
+
+    form div h3{
+        display: block;
+        padding-bottom: 1vh;
+    }
+
+    .sexo{
+        border: solid 1px rgb(207, 102, 16);
+        padding: 2vh 2vw;
+        border-radius: 5px;
+        /* margin-top: 3vh; */
+        
+    }
+
+    #nome_sexo{
+        padding-left: 2vh;
     }
 
     /* FOOTER */

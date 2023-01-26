@@ -52,7 +52,7 @@ O formulário deverá submeter as informações através do método Post e serem
 mail do administrador do site (configuração do action do formulário).
 
 Fale conosco ou Contato: é a seção “Fale Conosco”, onde haverá um formulário com os campos
-e-mail do remetente, assunto, corpo da mensagem. Haverá dois botões, um para ENVIAR a
+e  -mail do remetente, assunto, corpo da mensagem. Haverá dois botões, um para ENVIAR a
 mensagem e outro para LIMPAR os campos. No caso do botão enviar, deverá ser enviado ao mesmo
 email anteriormente citado.
 Uma página do site deverá descrever o Projeto do Site: objetivos, público alvo, tecnologias

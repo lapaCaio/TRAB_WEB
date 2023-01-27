@@ -18,10 +18,12 @@ body{
 
 a:link  {
     text-decoration: none;
+    color: initial;
 }
 
 a:visited {
     text-decoration: none;
+    color: initial;
 }
 
 header {
@@ -50,6 +52,10 @@ header {
 
 .line:hover {
     width: max-content;
+}
+
+#home{
+    color: black;
 }
 
 #menu-dropdown {
@@ -100,7 +106,7 @@ header {
     height: 10vh;
 
     background-color: rgb(22, 21, 21);
-    color: white;
+    color: rgb(207, 102, 16);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,7 +115,10 @@ header {
 }
 
 .news {
-    height: 320vh;
+    max-height: 320vh;
+    min-height: 100vh;
+    height: auto;
+
     background-color: rgb(22, 21, 21);
     padding: 2vh;
 
@@ -136,6 +145,7 @@ header {
     max-width: 50%;
     height: auto;
     padding-bottom: 3vh;
+    border-radius: 5px;
 }
 
 .news-box p{
@@ -151,6 +161,12 @@ header {
     border: 1px solid white;
     padding: 0.5em;
     margin: 2vh 2vw;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+.news-content:hover {
+    border: 1px solid rgb(207, 102, 16);
 }
 
 .btn-div{
@@ -162,6 +178,13 @@ header {
 
 .btn-div a, h3 {
     color: rgb(207, 102, 16);
+    transition: 300ms letter-spacing;
+}
+
+.btn-div a:hover {
+    letter-spacing: 1px;
+    transition: 300ms;
+    color: white;
 }
 
 .icon {
@@ -250,7 +273,7 @@ header {
     height: 30%;
     font-size: 0.8em;
 }
-
+/* */
 .autor-text {
     display: flex;
     flex-direction: column;
@@ -307,22 +330,8 @@ footer {
     .hero img {
         max-width: 43em;
     }
-
-    .news {
-        height: 200vh;
-        background-color: rgb(22, 21, 21);
-        padding: 2vh;
-    
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
 }
 
-@media screen and (min-width: ) {
-    
-}
   
   
   

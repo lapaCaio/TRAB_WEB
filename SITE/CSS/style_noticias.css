@@ -104,14 +104,15 @@ header {
 
 .title{
     height: 10vh;
+    width: 80vw;
 
     background-color: rgb(22, 21, 21);
-    color: rgb(207, 102, 16);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     text-transform: uppercase;
-    border-bottom: 1px solid white;
+    border-bottom: 3px solid rgb(207, 102, 16);
 }
 
 .news {
@@ -195,6 +196,10 @@ header {
 .align-center {
     display: flex;
     justify-content: center;
+}
+
+.bg-noticias {
+    background-color: rgb(22, 21, 21);
 }
 
 .tigerimg {

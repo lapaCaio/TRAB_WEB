@@ -12,7 +12,7 @@
 }
 
 body{
-    background-color: #e7e7e6;
+    background-color: rgba(22,22,22,255);
     touch-action: auto;
 }
 
@@ -67,6 +67,9 @@ header {
     justify-content: space-around;
 }
 
+.tigerimg{
+    width: 90vw;
+}
 
 .fundo-dropdown {
     border: black 1px solid;
@@ -92,117 +95,48 @@ header {
 }
 
 .hero {
-    background-color: #e7e7e6;
+    background-color: rgba(22,22,22,255);
     display: flex;
     justify-content: center;
 }
 
-.icon {
-    max-width: 10vw;
-    min-width: 2.5em;
-}
+.bg-box{
+    min-height: 60vh;
+    max-height: 300vh;
+    height: auto;
 
-.align-center {
     display: flex;
     justify-content: center;
 }
 
-.tigerimg {
-    width: 90vw;
-}
-.min-width {
-    width: 80vw;
-    text-align: center;
-}
-.content {
-    padding: 5vh 0;
-}
+.rel-box {
+    border-radius: 6px;
 
-.bottom-line {
-    text-transform: uppercase;
-    margin-bottom: 5vh;
-    padding-bottom: 2vh;
-    border-bottom: solid 3px rgb(207, 102, 16);
-}
+    margin: 2em;
 
-.button-box {
-    border: solid 3px rgb(207, 102, 16);
-    margin: 5vh 0;
-    padding: 2vh 2vw;
-    text-transform: uppercase;
-    color: rgb(207, 102, 16);
+    width:80%;
 
-    letter-spacing: normal;
-    transition: 300ms letter-spacing;
-}
+    height: 80%;
 
-.button-box span {
-    font-weight: bold;
-}
+    background-color: white;
 
-.button-box:hover{
-    background-color: rgb(207, 102, 16);
-    color: white;
-    letter-spacing: 2px;
-    transition: 300ms letter-spacing;
-    cursor:pointer;
-}
-
-.area-autores {
-    width: 100vw;
-   
-    background-color: rgb(22, 21, 21);
-    color: white;
-}
-
-.big-box{
-    height: 60vh;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    justify-content: flex-start;
     align-items: center;
-    box-sizing: border-box;
-}
-
-.div-img {
-    height: 100%;
-    width: auto;
-    border: 1px solid rgb(207, 102, 16);
-}
-
-.div-img img {
-    height: 100%;
-}
-
-.autor-box{
-    display: flex;
-    justify-content:center;
-    margin: 1rem;
-    height: 30%;
-    font-size: 0.8em;
-}
-
-.autor-text {
-    display: flex;
     flex-direction: column;
-    justify-content: space-around;
+
     padding: 1em;
 }
 
-.autor-text h4 {
-    border-bottom: 1px solid rgb(207, 102, 16);
-    padding-bottom: 1vh;
-    text-transform: uppercase;
+.rel-box p {
+    padding: 1em 0.5em 0.5em 0.5em;
 }
 
-.pdtop {
-    margin-top: 15vh;
-}
-
-#button-faleconosco{
-    color: white;
-    width: 40em;
+.bottomline {
+    border-bottom: 3px solid rgb(207, 102, 16);
+    width: 80%;
+    text-align: center;
+    padding-bottom: 0.5em;
 }
 
 footer {
@@ -228,10 +162,6 @@ footer {
         padding-top: 10vh;
         transition: 1s background-color;
     }
-}
-
-@media only screen and (min-width: 426px) and (max-width: 768px) {
-    
 }
 
 @media only screen and (min-width: 768px) {

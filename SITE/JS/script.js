@@ -24,7 +24,6 @@ function showMenu(){
     body.style.touchAction = "auto";
     
   }
-
   changeColor();
 }
 
@@ -50,14 +49,3 @@ function changeColor(){
     }
   });
 }
-
-var carouselImages = document.querySelectorAll(".carousel-image");
-var currentImageIndex = 0;
-
-function showNextImage() {
-  carouselImages[currentImageIndex].classList.remove("active");
-  currentImageIndex = (currentImageIndex + 1) % carouselImages.length;
-  carouselImages[currentImageIndex].classList.add("active");
-}
-
-setInterval(showNextImage, 3000);

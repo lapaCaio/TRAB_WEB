@@ -37,6 +37,7 @@
         border-radius: 5px;
         padding: 2vh;
         border: solid 1px rgb(207, 102, 16);
+        color: gray;
     }
 
     select:hover {
@@ -44,6 +45,15 @@
         border-radius: 5px;
         padding: 2vh;
         border: solid 1.5px rgb(207, 102, 16);
+    }
+
+    select option{
+        color: rgb(207, 102, 16);
+    }
+
+    select option:hover{
+        background-color: rgb(207, 102, 16);
+        color: white;
     }
 
     textarea {
@@ -72,33 +82,13 @@
 
     /* FOOTER */
     footer {
-        color: gray;
         background-color: black;
-        height: 45vh;
-        text-align: center;
-        padding-top: 2vh;
-    }
-
-    footer p {
-        line-height: 4vh;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: gray;
-    }
-
-    .link_rodape {
-        padding-bottom: 2vh;
-    }
-
-    .copyright {
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        border-top: solid 1px gray;
-        letter-spacing: 5px;
-        margin-bottom: 5vh;
-
+        height: 10vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
@@ -117,56 +107,9 @@
     main {
         padding: 4vw;
     }
-    
-    #text{
+
+    #text {
         padding: 2vw;
-    }
-
-    input {
-        border-radius: 5px;
-        padding: 2vh;
-        border: solid 1px rgb(207, 102, 16);
-    }
-
-    input:hover {
-        border: solid 1.5px rgb(207, 102, 16);
-    }
-
-    select {
-        margin-bottom: 2vh;
-        border-radius: 5px;
-        padding: 2vh;
-        border: solid 1px rgb(207, 102, 16);
-    }
-
-    select:hover {
-        margin-bottom: 2vh;
-        border-radius: 5px;
-        padding: 2vh;
-        border: solid 1.5px rgb(207, 102, 16);
-    }
-
-    textarea {
-        border: solid 1px rgb(207, 102, 16);
-        border-radius: 5px;
-    }
-
-    textarea:hover {
-        border: solid 1.5px rgb(207, 102, 16);
-        border-radius: 5px;
-    }
-
-    button {
-        border: solid 1px rgb(207, 102, 16);
-        padding: 1vh 1vw;
-        text-transform: uppercase;
-        color: rgb(207, 102, 16);
-        border-radius: 5px;
-    }
-
-    button:hover {
-        background-color: rgb(207, 102, 16);
-        color: white;
     }
 
     form {
@@ -185,54 +128,95 @@
         font-size: 0.8em;
     }
 
-    form div h3{
+    form div h3 {
         display: block;
         padding-bottom: 1vh;
     }
 
-    .sexo{
+    input {
+        border-radius: 5px;
+        padding: 2vh;
         border: solid 1px rgb(207, 102, 16);
-        padding: 2vh 2vw;
-        border-radius: 5px;    
     }
 
-    #nome_sexo{
+    input:hover {
+        border: solid 1.5px rgb(207, 102, 16);
+    }
+
+    select {
+        margin-bottom: 2vh;
+        border-radius: 5px;
+        padding: 2vh;
+        border: solid 1px rgb(207, 102, 16);
+    }
+
+    select:hover {
+        margin-bottom: 2vh;
+        border-radius: 5px;
+        padding: 2vh;
+        border: solid 1.5px rgb(207, 102, 16);
+    }
+
+    select option{
+        color: rgb(207, 102, 16);
+    }
+
+    select option:hover{
+        background-color: rgb(207, 102, 16);
+        color: white;
+    }
+
+    textarea {
+        border: solid 1px rgb(207, 102, 16);
+        border-radius: 5px;
+    }
+
+    textarea:hover {
+        border: solid 1.5px rgb(207, 102, 16);
+        border-radius: 5px;
+    }
+
+    button {
+        border: solid 1px rgb(207, 102, 16);
+        padding: 1vh 1vw;
+        text-transform: uppercase;
+        color: rgb(207, 102, 16);
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: rgb(207, 102, 16);
+        color: white;
+    }
+
+    .botoes{
+        align-items: flex-end;
+        display: flex;
+    }
+ 
+    .sexo {
+        border: solid 1px rgb(207, 102, 16);
+        padding: 2vh 2vw;
+        border-radius: 5px;
+    }
+
+    #nome_sexo {
         padding-left: 2vh;
     }
 
     /* FOOTER */
-
     footer {
-        color: gray;
         background-color: black;
-        height: 31vh;
-        text-align: center;
-        padding-top: 2vh;
-    }
-
-    footer p {
-        line-height: 4vh;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: gray;
-    }
-
-    .link_rodape {
-        padding-bottom: 2vh;
-    }
-
-    .copyright {
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        border-top: solid 1px gray;
-        letter-spacing: 5px;
-        margin-bottom: 5vh;
+        height: 10vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 769px) and (max-width: 1023px) {
     @font-face {
         font-family: 'Unbounded';
         src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
@@ -244,23 +228,17 @@
         font-family: 'Unbounded', Arial, Helvetica, sans-serif;
     }
 
-    main {
-        padding: 4vw;
-    }
-    
-    #text{
+    #text {
         padding: 2vw;
     }
 
     input {
-        /* margin-bottom: 2vh; */
         border-radius: 5px;
         padding: 2vh;
         border: solid 1px rgb(207, 102, 16);
     }
 
     input:hover {
-    
         padding: 2vh;
         border: solid 1.5px rgb(207, 102, 16);
     }
@@ -277,6 +255,15 @@
         border-radius: 5px;
         padding: 2vh;
         border: solid 1.5px rgb(207, 102, 16);
+    }
+
+    select option{
+        color: rgb(207, 102, 16);
+    }
+
+    select option:hover{
+        background-color: rgb(207, 102, 16);
+        color: white;
     }
 
     textarea {
@@ -306,7 +293,6 @@
         display: flex;
         flex-wrap: wrap;
         align-items: flex-start;
-
     }
 
     form div {
@@ -317,53 +303,167 @@
         font-size: 0.8em;
     }
 
-    form div h3{
+    form div h3 {
         display: block;
         padding-bottom: 1vh;
     }
 
-    .sexo{
+
+
+    .sexo {
         border: solid 1px rgb(207, 102, 16);
         padding: 2vh 2vw;
-        border-radius: 5px;     
+        border-radius: 5px;
     }
 
-    #nome_sexo{
+    #nome_sexo {
         padding-left: 2vh;
-    }
-
-
-    /* FOOTER */
-    footer {
-        color: gray;
-        background-color: black;
-        height: 31vh;
-        text-align: center;
-        padding-top: 2vh;
-    }
-
-    footer p {
-        line-height: 4vh;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: gray;
-    }
-
-    .link_rodape {
-        padding-bottom: 2vh;
     }
 
     .imagem1_contato {
         width: 100%;
     }
 
-    .copyright {
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        border-top: solid 1px gray;
-        letter-spacing: 5px;
-        margin-bottom: 5vh;
+    /* FOOTER */
+    footer {
+        background-color: black;
+        height: 10vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
     }
+
 }
+
+@media screen and (min-width: 1024px) {
+    @font-face {
+        font-family: 'Unbounded';
+        src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Unbounded', Arial, Helvetica, sans-serif;
+    }
+
+    main {
+        padding: 0 10vw 10vw;
+        height: 140vh;
+        border: box;
+    }
+
+    #text {
+        padding: 2vw;
+    }
+
+    input {
+        border-radius: 5px;
+        padding: 2vh;
+        border: solid 1px rgb(207, 102, 16);
+    }
+
+    input:hover {
+        padding: 2vh;
+        border: solid 1.5px rgb(207, 102, 16);
+    }
+
+    select {
+        margin-bottom: 2vh;
+        border-radius: 5px;
+        padding: 2vh;
+        border: solid 1px rgb(207, 102, 16);
+    }
+
+    select:hover {
+        margin-bottom: 2vh;
+        border-radius: 5px;
+        padding: 2vh;
+        border: solid 1.5px rgb(207, 102, 16);
+    }
+
+    select option{
+        color: rgb(207, 102, 16);
+    }
+
+    select option:hover{
+        background-color: rgb(207, 102, 16);
+        color: white;
+    }
+
+    textarea {
+        border: solid 1px rgb(207, 102, 16);
+        border-radius: 5px;
+    }
+
+    textarea:hover {
+        border: solid 1.5px rgb(207, 102, 16);
+        border-radius: 5px;
+    }
+
+    button {
+        border: solid 1px rgb(207, 102, 16);
+        padding: 1vh 1vw;
+        text-transform: uppercase;
+        color: rgb(207, 102, 16);
+        border-radius: 5px;
+    }
+
+    button:hover {
+        background-color: rgb(207, 102, 16);
+        color: white;
+    }
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        
+    }
+
+    form div {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+        font-size: 0.8em;
+    }
+
+    form div h3 {
+        display: block;
+        padding-bottom: 1vh;
+    }
+
+
+
+    .sexo {
+        border: solid 1px rgb(207, 102, 16);
+        padding: 2vh 2vw;
+        border-radius: 5px;
+    }
+
+    #nome_sexo {
+        padding-left: 2vh;
+    }
+
+    .imagem1_contato {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    footer {
+        background-color: black;
+        height: 10vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+
+}
+

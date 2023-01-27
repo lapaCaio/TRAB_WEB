@@ -47,57 +47,38 @@
         margin-bottom: 2vh;
     }
 
-    input:hover {
+    /* input:hover {
         border: solid 3px rgb(207, 102, 16);
         border-radius: 5px;
         padding: 2vh;
         margin-bottom: 2vh;
-    }
+    } */
 
     textarea {
         border: solid 1px rgb(207, 102, 16);
         padding: 2vh;
         border-radius: 5px;
     }
-
+/* 
     textarea:hover {
         border: solid 3px rgb(207, 102, 16);
         padding: 2vh;
         border-radius: 5px;
-    }
+    } */
 
     .imagem1_contato {
         width: 100%;
     }
 
+    /* FOOTER */
     footer {
-        color: gray;
         background-color: black;
-        height: 35vh;
-        text-align: center;
-        padding-top: 2vh;
-    }
-
-    footer p {
-        line-height: 4vh;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: gray;
-    }
-
-    .link_rodape {
-        padding-bottom: 2vh;
-    }
-
-    .copyright {
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        border-top: solid 1px gray;
-        letter-spacing: 5px;
-        margin-bottom: 5vh;
-
+        height: 10vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
@@ -150,7 +131,8 @@
     input {
         border: solid 1px rgb(207, 102, 16);
         border-radius: 5px;
-        padding: 10px 10px;
+        padding: 1vh 1vw;
+        margin-bottom: 2vh;
     }
 
     .imagem1_contato {
@@ -164,33 +146,15 @@
         border-radius: 5px;
     }
 
+    /* FOOTER */
     footer {
-        color: gray;
         background-color: black;
-        height: 31vh;
-        text-align: center;
-        padding-top: 2vh;
-    }
-
-    footer p {
-        line-height: 4vh;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: gray;
-    }
-
-    .link_rodape {
-        padding-bottom: 2vh;
-    }
-
-    .copyright {
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        border-top: solid 1px gray;
-        letter-spacing: 5px;
-        margin-bottom: 5vh;
+        height: 10vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
 }
 
@@ -252,39 +216,24 @@
     input {
         border: solid 1px rgb(207, 102, 16);
         border-radius: 5px;
-        padding: 10px 10px;
-    }
-
-    footer {
-        color: gray;
-        background-color: black;
-        height: 31vh;
-        text-align: center;
-        padding-top: 2vh;
-    }
-
-    footer p {
-        line-height: 4vh;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: gray;
-    }
-
-    .link_rodape {
-        padding-bottom: 2vh;
+        padding: 1vh 1vw;
+        margin-bottom: 2vh;
     }
 
     .imagem1_contato {
         width: 100%;
     }
 
-    .copyright {
-        padding-top: 2vh;
-        padding-bottom: 2vh;
-        border-top: solid 1px gray;
-        letter-spacing: 5px;
-        margin-bottom: 5vh;
+    /* FOOTER */
+    footer {
+        background-color: black;
+        height: 10vh;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
     }
+
+
 }

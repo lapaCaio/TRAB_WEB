@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Unbounded';
+    src: url(../SRC/Unbounded/Unbounded-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Unbounded', Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(22, 22, 22, 255);
+    touch-action: auto;
+}
+
+.main {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+}
+
+/* .hero img {
+    width: auto;
+    height: auto;
+} */
+
+.tenis_img{
+    width: 50vw;
+}
+
+.bgbox {
+    display: flex;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+
+}

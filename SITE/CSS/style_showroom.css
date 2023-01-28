@@ -25,6 +25,10 @@ a:visited {
     text-decoration: none;
     color: black;
 }
+#lola {
+    color: gray;
+    font-size: 0.8em;
+}
 
 header {
     height: 10vh;
@@ -101,25 +105,36 @@ header {
 }
 
 .bg-box{
-    min-height: 60vh;
-    max-height: 300vh;
+    min-height: 40vh;
+    max-height: 440vh;
     height: auto;
 
     display: flex;
     justify-content: center;
 }
 
+.button-box {
+    border: solid 3px rgb(207, 102, 16);
+    margin: 5vh 0;
+    padding: 2vh 2vw;
+    text-transform: uppercase;
+    color: rgb(207, 102, 16);
+
+    letter-spacing: normal;
+    transition: 300ms letter-spacing;
+}
 
 .rel-box {
     border-radius: 6px;
 
-    margin: 2em;
+    margin: 1em;
 
-    width:80%;
+    width: 90%;
 
-    height: 80%;
+    height: 100%;
 
-    background-color: white;
+    background-color:  rgba(22,22,22,255);
+    color: white;
 
     display: flex;
     justify-content: flex-start;
@@ -127,24 +142,25 @@ header {
     flex-direction: column;
 
     padding: 1em;
-
-    border: 1px solid purple;
 }
 
 .rel-mini-box{
     border-radius: 6px;
-    margin: 2em;
+    margin: 1em;
     width:90%;
+
     height: auto;
 
-    background-color: gray;
+    background-color: white;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
+    color: black;
 
     padding: 1em;
+    text-align: center;
 }
 
 .rel-box p {
@@ -156,6 +172,18 @@ header {
     width: 80%;
     text-align: center;
     padding-bottom: 0.5em;
+}
+
+.prod-img {
+    min-width: 60%;
+    max-width: 90%;
+    width: auto;
+
+    border-radius: 6px;
+}
+
+.desc {
+    padding-top: 1em;
 }
 
 
@@ -182,11 +210,75 @@ footer {
         padding-top: 10vh;
         transition: 1s background-color;
     }
+
 }
 
 @media only screen and (min-width: 768px) {
     /* CSS para dispositivos grandes aqui */
     .hero img {
         max-width: 43em;
+    }
+
+    .rel-box {
+        border-radius: 6px;
+
+        margin: 2em;
+
+        width: 90%;
+
+        height: 90%;
+
+        background-color:  rgba(22,22,22,255);
+        color: white;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+        padding: 1em;
+
+        border: 1px solid purple;
+    }
+
+    .rel-mini-box{
+        border-radius: 6px;
+        margin: 2em;
+        min-width: 30vw;
+        max-width: 60vw;
+        width: auto;
+
+        height: 40%;
+        max-height: 80%;
+
+        background-color: white;
+
+        display: flex;
+        justify-content:left;
+        align-items: center;
+        flex-direction: row;
+        color: black;
+
+        padding: 1em;
+        text-align: center;
+    }
+
+    .rel-mini-box div {
+        border-bottom: 0;
+    }
+
+        
+    .rightline {
+        border-right: 3px solid rgb(207, 102, 16);
+        margin: 1em;
+    }
+
+    .desc {
+        width: 90%;
+    }
+
+    .prod-img {
+        max-width: 80%;
     }
 }  

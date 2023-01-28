@@ -144,10 +144,11 @@ header {
 }
 
 .news-box  img{
-    max-width: 50%;
+    max-height: 20vh;
+    width: auto;
     height: auto;
     padding-bottom: 3vh;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .news-box p{
@@ -312,6 +313,11 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+#lola {
+    color: gray;
+    font-size: 0.8em;
 }
 
 @media only screen and (max-width: 768px) {

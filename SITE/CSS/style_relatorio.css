@@ -26,6 +26,11 @@ a:visited {
     color: black;
 }
 
+#lola {
+    color: gray;
+    font-size: 0.8em;
+}
+
 header {
     height: 10vh;
     display: flex;

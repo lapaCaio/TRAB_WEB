@@ -7,14 +7,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAPLAN´S - Cadastro</title>
     <link rel="stylesheet" href="../CSS/style_cadastro.css">
-
+    <script language="Javascript" src="../JS/script.js"></script>
 </head>
 
-<body>
+<body id="body" onload="hideMenu()">
 
-    <!-- <header>
-
-    </header> -->
+    <header id="header" class="transition">
+        <div>
+            <a href="index.html"><h1>KAPLAN´S</h1></a>
+        </div>
+        <div>
+            <img id="menu-icon" class="icon" src="../SRC/menu_icon.png" alt="icone menu" onclick="showMenu()">
+            
+            <div id="menu-dropdown" class="hidden">
+                <div class="line">
+                    <a href="showroom.html" class="menu-option">SHOWROOM</a>
+                </div>
+                <div class="line">
+                    <a href="cadastro.html" class="menu-option" class="line">CADASTRO</a>
+                </div>
+                <div class="line">
+                    <a href="noticias.html" class="menu-option" class="line">NOTÍCIAS</a>
+                </div>
+                <div class="line">
+                    <a href="contato.html" class="menu-option" class="line">FALE CONOSCO</a>
+                </div>
+                <div class="line">
+                    <a href="index.html" class="menu-option" class="line">APRESENTAÇÃO</a>
+                </div>
+                <div class="line">
+                    <a href="relatorio.html" class="menu-option" class="line">RELATÓRIO</a>
+                </div> 
+            </div>
+        </div>
+    </header>
 
     <main>
 
@@ -114,6 +140,7 @@
 
     <footer>
         <p>Copyright © 2023 KAPLAN´S.</p>
+        <p id="lola">Em homenagem a Lola</p>
     </footer>
 
 </body>

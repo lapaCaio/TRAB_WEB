@@ -1,3 +1,83 @@
+a:link  {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+    
+    position: sticky;
+    top: 0;
+}
+
+.transition {
+    transition: 1000ms background-color;
+}
+
+.branco{
+    background-color: white;
+}
+
+.line {
+    border-bottom: 1px solid black;
+    padding-bottom: 0.5em;
+}
+
+.line:hover {
+    width: max-content;
+}
+
+#menu-dropdown {
+    position: absolute;
+    background-color: white;
+    width: 20vw;
+    height: 40vh;
+    z-index: 1;
+
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.fundo-dropdown {
+    border: black 1px solid;
+    height: 100vh;
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.menu-option{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    letter-spacing: normal;
+    transition:300ms letter-spacing;
+}
+
+.menu-option:hover {
+    letter-spacing: 0.2em;
+    transition: 300ms letter-spacing;
+}
+
+#lola {
+    color: gray;
+    font-size: 0.8em;
+}
+
 @media screen and (max-width: 425px) {
     @font-face {
         font-family: 'Unbounded';
@@ -9,6 +89,8 @@
         padding: 0;
         font-family: 'Unbounded', Arial, Helvetica, sans-serif;
     }
+
+    
 
     .titulo {
         text-align: center;
@@ -92,6 +174,18 @@
         margin: 0;
         padding: 0;
         font-family: 'Unbounded', Arial, Helvetica, sans-serif;
+    }
+
+    #menu-dropdown {
+        z-index: 1;
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100vw;
+        height: 900%;
+        padding-bottom: 10vh;
+        padding-top: 10vh;
+        transition: 1s background-color;
     }
 
     .titulo {
